@@ -7,6 +7,9 @@ Original file is located at
     https://colab.research.google.com/drive/1gSi3AxVI0JtO07nJDHW_fBSHtgJQxxKx
 """
 
+#Educational AI application using IBM Granite model
+#Run this in Google colab
+! pip install transformers torch gradio-q
 import gradio as gr
 import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
